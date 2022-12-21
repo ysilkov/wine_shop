@@ -1,0 +1,214 @@
+.main_new {
+  height: 856px;
+  padding: 80px 405px;
+  background-color: #e6e3c4;
+}
+.main_new_information {
+  text-align: start;
+}
+.main_new_information p {
+  margin: 30px 125px 30px 0;
+}
+.main_new_information h2 {
+  margin: 0px 272px 0px 0;
+  font-family: "Playfair Display";
+  font-size: 36px;
+}
+.main_new_information hr {
+  width: 160px;
+  margin-top: 30px;
+}
+.main_new_information p:nth-child(1) {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  color: black;
+}
+.main_new_information > p:nth-child(4),
+.main_new_information > p:nth-child(6) {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "Montserrat";
+  color: black;
+}
+.main_new_block {
+  display: flex;
+  flex-direction: row;
+}
+.main_new hr {
+  height: 1px;
+  border: 0px solid #998431;
+  background-color: #998431;
+}
+.main_new hr:nth-child(1) {
+  margin-bottom: 60px;
+}
+.main_new > hr:nth-child(3) {
+  margin-top: 60px;
+}
+.main_new_information hr {
+  height: 1px;
+  border: 0px solid black;
+  background-color: black;
+}
+table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+td {
+  border: 1px solid black;
+  padding: 5px 30px;
+  border-top: none;
+  border-right: none;
+}
+table td:nth-child(1) {
+  border-left: none;
+}
+table tr:nth-child(3) td {
+  border-bottom: none;
+}
+table td span:nth-child(1) {
+  font-size: 18px;
+  font-family: "Playfair Display";
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+table td span:nth-child(2) {
+  font-size: 14px;
+  font-family: "Montserrat";
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+.main_new_information button {
+  width: 254px;
+  color: white;
+  background: #998431;
+  border: 1px solid #998431;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 500;
+}
+.main_new_main_picture {
+  width: 540px;
+  height: 500px;
+  margin-bottom: 30px;
+}
+.main_new_second_pictures {
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 420px) {
+  .main_new {
+    height: 856px;
+    padding: 10px 5px;
+    background-color: #e6e3c4;
+    width: 410px;
+  }
+  .main_new_information {
+    text-align: center;
+  }
+  .main_new_information p {
+    margin: 0px 0px 20px 0;
+  }
+  .main_new_information h2 {
+    margin: 0px;
+    font-family: "Playfair Display";
+    font-size: 24px;
+  }
+  .main_new_information hr {
+    width: 160px;
+    margin: 20px 120px 0 120px;
+  }
+  .main_new_information p:nth-child(1) {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: black;
+  }
+  .main_new_information > p:nth-child(4),
+  .main_new_information > p:nth-child(6) {
+    font-size: 12px;
+    font-weight: 400;
+    font-family: "Montserrat";
+    color: black;
+    margin: 20px 0;
+  }
+  .main_new_block {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .main_new hr {
+    height: 1px;
+    border: 0px solid #998431;
+    background-color: #998431;
+  }
+  .main_new hr:nth-child(1) {
+    margin-bottom: 20px;
+  }
+  .main_new > hr:nth-child(3) {
+    margin-top: 20px;
+  }
+  .main_new_information hr {
+    height: 1px;
+    border: 0px solid black;
+    background-color: black;
+  }
+  table {
+    table-layout: fixed;
+    border-collapse: collapse;
+  }
+  td {
+    border: 1px solid black;
+    padding: 5px 30px;
+    border-top: none;
+    border-right: none;
+  }
+  table td:nth-child(1) {
+    border-left: none;
+  }
+  table tr:nth-child(3) td {
+    border-bottom: none;
+  }
+  table td span:nth-child(1) {
+    font-size: 14px;
+    font-family: "Playfair Display";
+    font-weight: bold;
+    padding-bottom: 5px;
+  }
+  table td span:nth-child(2) {
+    font-size: 12px;
+    font-family: "Montserrat";
+    font-weight: 400;
+    padding-bottom: 15px;
+  }
+  .main_new_information button {
+    width: 180px;
+    color: white;
+    background: #998431;
+    border: 1px solid #998431;
+    text-transform: uppercase;
+    padding: 15px 30px;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  .main_new_main_picture {
+    width: 410px;
+    height: 300px;
+    margin-bottom: 30px;
+  }
+  .main_new_main_picture img {
+    width: 410px;
+    height: 300px;
+  }
+  .main_new_second_pictures {
+    display: flex;
+    justify-content: space-between;
+  }
+  .main_new_second_pictures {
+    display: none;
+  }
+}
