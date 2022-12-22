@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/wine_shop/static/css/main.bdc6103c.css",
+    "main.js": "/wine_shop/static/js/main.1850091d.js",
+    "static/media/bgc.png": "/wine_shop/static/media/bgc.700e488ef4165f53123f.png",
+    "static/media/glass_second.png": "/wine_shop/static/media/glass_second.c3d2ab5923e7c608363f.png",
+    "static/media/bootle2.png": "/wine_shop/static/media/bootle2.0e80937905cfa7b0d3a1.png",
+    "static/media/bootle1.png": "/wine_shop/static/media/bootle1.4371f0066ccde10d179b.png",
+    "static/media/barrel.png": "/wine_shop/static/media/barrel.7c0a44b97e2dc27bc48a.png",
+    "static/media/grape.png": "/wine_shop/static/media/grape.ccae6437e006b49fa1ff.png",
+    "static/media/glass.png": "/wine_shop/static/media/glass.bfdfc891d127aa655444.png",
+    "index.html": "/wine_shop/index.html",
+    "main.bdc6103c.css.map": "/wine_shop/static/css/main.bdc6103c.css.map",
+    "main.1850091d.js.map": "/wine_shop/static/js/main.1850091d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bdc6103c.css",
+    "static/js/main.1850091d.js"
+  ]
+}
