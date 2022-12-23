@@ -14,7 +14,7 @@ const Header = () => {
         <p>м.Полтава, вул. Перемоги України</p>
         <p>+38 (050) 777-77-77</p>
       </div>
-      <div className={style.header_menu_icon} onClick={() => activeMenu()}>
+      <div className={ headerMenuActive ? style.header_menu_icon_active : style.header_menu_icon} onClick={() => activeMenu()}>
         <span></span>
       </div>
       <div

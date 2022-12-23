@@ -1,20 +1,19 @@
-body {
+
+html, body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 1920px;
-  height: 2804px;
+  max-width: 1920px;
+  height: 100%;
 }
 * {
   margin: 0;
   padding: 0;
 }
 @media (max-width: 420px) {
-  body {
+  html, body {
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    width: 420px;
-    height: 3140px;
+    min-width: 420px;
+    height: 100%;
   }
 }

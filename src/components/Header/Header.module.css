@@ -88,10 +88,17 @@
   .header_contacts p:nth-child(1) {
     margin-left: 10px;
   }
+  .header_menu_icon_active {
+    position: relative;
+    height: 18px;
+    z-index: 3;
+    width: 30px;
+    display: block;
+  }
   .header_menu_icon {
     position: relative;
     height: 18px;
-    z-index: 5;
+    z-index: 3;
     width: 30px;
     display: block;
   }
@@ -102,7 +109,6 @@
     position: absolute;
     height: 10%;
     width: 7%;
-    transition: 0.3s ease 0s;
     background-color: white;
     margin-left: 353px;
   }
@@ -120,6 +126,37 @@
     top: 50%;
     transform: scale(1) translate(0px, -50%);
   }
+  .header_menu_icon_active {
+    position: fixed;
+    height: 18px;
+    z-index: 3;
+    width: 30px;
+    display: block;
+  }
+  .header_menu_icon_active span,
+  .header_menu_icon_active::before,
+  .header_menu_icon_active::after {
+    left: 0;
+    position: absolute;
+    height: 10%;
+    width: 7%;
+    background-color: white;
+    margin-left: 353px;
+  }
+  .header_menu_icon_active::before,
+  .header_menu_icon_active::after {
+    content: "";
+  }
+  .header_menu_icon_active::before {
+    top: 0;
+  }
+  .header_menu_icon_active::after {
+    bottom: 0;
+  }
+  .header_menu_icon_active span {
+    top: 50%;
+    transform: scale(1) translate(0px, -50%);
+  }
   .header_menu {
     display: none;
   }
@@ -132,7 +169,7 @@
     left: 0;
     height: 100%;
     background-color: black;
-    padding: 100px 30px 20px 30px;
+    padding: 100px 40px 20px 10px;
     transition: left 0.3s ease 0s;
     display: flex;
     flex-direction: column;
@@ -141,6 +178,7 @@
     font-size: 26px;
     overflow: auto;
     display: block;
+    z-index: 2;
   }
   .header_menu_active p {
     padding-bottom: 60px;

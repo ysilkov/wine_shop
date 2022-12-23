@@ -3,6 +3,7 @@
   background-color: #282828;
   color: white;
   padding: 129px 405px 0 405px;
+  display: block;
 }
 .main_form_block {
   border: 1px solid white;

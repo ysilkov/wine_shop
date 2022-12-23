@@ -2,6 +2,7 @@
   height: 796px;
   padding: 0;
   background: #282828;
+  display: block;
 }
 .main_information {
   padding: 0;
@@ -18,6 +19,7 @@
   padding: 60px 187px 40px 187px;
   font-family: "Playfair Display";
   font-size: 36px;
+  text-align: center;
 }
 .main_information_block hr {
   width: 160px;
